@@ -27,14 +27,6 @@ Wanderlust-Travel-Blog/
 └── README.md
 \`\`\`
 
-## 🚀 Run Locally
-
-\`\`\`bash
-git clone https://github.com/Arshia239/Wanderlust-Travel-Blog.git
-cd Wanderlust-Travel-Blog
-\`\`\`
-
-Phir `index.html` file ko apne browser mein open kar dein — koi build step ya dependencies nahi chahiye.
 
 ## 📌 What I Learned
 
