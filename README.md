@@ -4,8 +4,6 @@ A clean, minimal travel blog built with pure HTML & CSS — no frameworks, no sh
 
 🔗 **Live Demo:** [wanderlust-travel-blog.netlify.app](https://wanderlust-travel-blog.netlify.app/)
 
-![Wanderlust Preview](screenshot.png)
-
 ## ✨ Features
 
 - Responsive landing page with hero section
