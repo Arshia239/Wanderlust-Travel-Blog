@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust — Travel Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER & NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">✦ Wanderlust</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#destinations">Destinations</a>
+        <a href="#featured">Featured</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Stories from the road</p>
+        <h1>The world is too<br /><em>big to stay home.</em></h1>
+        <p class="hero-sub">Honest travel writing from 42 countries. No sponsored fluff — just real places, real food, and the wrong turns that made it memorable.</p>
+        <a href="#featured" class="btn-primary">Read Latest Stories</a>
+      </div>
+      <div class="hero-stamp">
+        <span>42</span>
+        <p>countries explored</p>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS SECTION -->
+    <section class="destinations" id="destinations">
+      <div class="container">
+        <h2>Top Destinations</h2>
+        <p class="section-sub">Places worth every hour of the flight.</p>
+
+        <div class="dest-grid">
+
+          <article class="dest-card dest-card--large">
+            <img
+              src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80"
+              alt="Lantern-lit alley in Kyoto, Japan at night"
+              width="800"
+              height="500"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Asia</span>
+              <h3>Kyoto, Japan</h3>
+              <p>Cherry blossoms, centuries-old temples, and a matcha latte that will ruin every other café for you.</p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1555990793-da11153b2473?w=600&q=80"
+              alt="Colorful street in Cartagena, Colombia"
+              width="600"
+              height="400"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Americas</span>
+              <h3>Cartagena, Colombia</h3>
+              <p>Pastel walls, Caribbean heat, and arepas that hit different at midnight.</p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1539768942893-daf53e448371?w=600&q=80"
+              alt="Hot air balloons over Cappadocia, Turkey at sunrise"
+              width="600"
+              height="400"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Europe / Asia</span>
+              <h3>Cappadocia, Turkey</h3>
+              <p>Balloons at dawn over fairy chimneys — a landscape that looks entirely invented.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED ARTICLE -->
+    <section class="featured" id="featured">
+      <div class="container featured-inner">
+        <div class="featured-text">
+          <span class="dest-tag">Featured Story</span>
+          <h2>48 Hours in Istanbul: The City That Refuses to Sleep</h2>
+          <p>You arrive thinking you'll see a mosque and a bazaar. You leave having eaten your weight in simit, haggled for a rug you didn't need, and watched the Bosphorus turn gold at 5am from a rooftop you found by accident.</p>
+          <p>Istanbul doesn't reveal itself on a schedule. It drags you into tea houses, drops you on ferry decks, and feeds you until you forget what day it is.</p>
+          <a href="#" class="btn-secondary">Read Full Story →</a>
+        </div>
+        <div class="featured-img">
+          <img
+            src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=700&q=80"
+            alt="Hagia Sophia and Istanbul skyline at sunset"
+            width="700"
+            height="500"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <h2>From the Lens</h2>
+        <p class="section-sub">A few frames from the road.</p>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80" alt="Mountain peaks above the clouds in the Alps" width="500" height="400" />
+            <figcaption>Swiss Alps, Switzerland</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=500&q=80" alt="Colorful fishing boats on Burano island, Italy" width="500" height="400" />
+            <figcaption>Burano Island, Italy</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=500&q=80" alt="Green hillside landscape in Iceland" width="500" height="400" />
+            <figcaption>Highlands, Iceland</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500&q=80" alt="Futuristic skyline of Dubai at night" width="500" height="400" />
+            <figcaption>Dubai, UAE</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=500&q=80"
+            alt="Traveler with a backpack looking at a mountain view"
+            width="500"
+            height="600"
+          />
+        </div>
+        <div class="about-text">
+          <h2>Who Writes This?</h2>
+          <p>Hi — I'm Arshia. I started this blog after a solo trip to Istanbul convinced me that getting lost on purpose is the only real way to travel.</p>
+          <p>I write about the places that surprised me, the food that changed my mind, and the logistics that nobody else warns you about. No luxury suites, no PR trips — just a camera, a carry-on, and too many opinions.</p>
+          <ul class="about-stats">
+            <li><strong>42</strong> countries</li>
+            <li><strong>6</strong> continents</li>
+            <li><strong>∞</strong> cups of chai</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">✦ Wanderlust</p>
+      <p class="footer-copy">© 2026 Wanderlust Travel Blog. Made with HTML &amp; CSS — no shortcuts.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#destinations">Destinations</a>
+        <a href="#featured">Stories</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
