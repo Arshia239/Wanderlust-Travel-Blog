@@ -30,7 +30,7 @@ Wanderlust-Travel-Blog/
 
 ## 📌 What I Learned
 
-- Pure CSS se responsive layouts banana
+- Pure CSS  responsive layouts 
 - Card-based UI design
 - Section-wise page structuring (hero, gallery, featured content)
 
